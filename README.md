@@ -2,6 +2,10 @@
 
 > **"Forecast reliability, not another weather forecast."**
 
+* **Live Deployment:** [https://forecastguard.vercel.app](https://forecastguard.vercel.app)
+* **API Endpoint Status:** [https://forecastguard.vercel.app/api/health](https://forecastguard.vercel.app/api/health)
+* **API Documentation:** [https://forecastguard.vercel.app/docs](https://forecastguard.vercel.app/docs)
+
 Existing numerical weather models estimate what the weather may be. **Clime / ForecastGuard** estimates how reliable that forecast is, flagging where, when, and why an existing forecast may experience unusually large errors (forecast busts).
 
 ---
