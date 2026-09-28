@@ -282,6 +282,7 @@ def live_forecast(refresh: bool = False):
             confidence, level = confidence_from_bust(probability)
             bust_pct = round(probability * 100, 1)
             contributors = _rf_contributors(cell, n=4)
+            local_attribution = bool(contributors)
             threshold = threshold_index.get((cell["region"], cell["day"]), {})
             cells.append({
                 **cell,

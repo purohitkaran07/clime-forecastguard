@@ -214,6 +214,20 @@ class TestClimeForecastGuardAPI(unittest.TestCase):
             self.assertEqual(res.status_code, 200, f"Static asset {path} failed")
             self.assertTrue(len(res.content) > 0, f"Static asset {path} is empty")
 
+    def test_16_live_forecast(self):
+        """Test GET /api/live-forecast and GET /api/live-forecast/{region}."""
+        res = client.get("/api/live-forecast")
+        self.assertEqual(res.status_code, 200)
+        data = res.json()
+        self.assertIn("regions", data)
+        self.assertEqual(len(data["regions"]), 180)
+
+        res_reg = client.get("/api/live-forecast/Maharashtra")
+        self.assertEqual(res_reg.status_code, 200)
+        d_reg = res_reg.json()
+        self.assertEqual(d_reg.get("region"), "Maharashtra")
+        self.assertEqual(d_reg.get("provider"), "Open-Meteo")
+
 
 if __name__ == "__main__":
     unittest.main()
