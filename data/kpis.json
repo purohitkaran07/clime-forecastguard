@@ -1,0 +1,11 @@
+{
+  "average_confidence": 55.8,
+  "high_risk_regions_count": 538,
+  "highest_bust_probability": 82.6,
+  "highest_bust_region": "Gajapati, Odisha",
+  "highest_bust_day": 10,
+  "most_uncertain_lead_time": "Day 10",
+  "regions_monitored": 554,
+  "regions_monitored_label": "554 districts across 18 states",
+  "data_type": "synthetic_prototype"
+}

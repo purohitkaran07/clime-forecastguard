@@ -1,0 +1,66 @@
+[
+  {
+    "state": "Odisha",
+    "district": "Gajapati",
+    "region": "Gajapati, Odisha",
+    "day": 10,
+    "bust_probability": 82.6,
+    "level": "HIGH RISK"
+  },
+  {
+    "state": "Odisha",
+    "district": "Balangir",
+    "region": "Balangir, Odisha",
+    "day": 10,
+    "bust_probability": 82.4,
+    "level": "HIGH RISK"
+  },
+  {
+    "state": "Odisha",
+    "district": "Subarnapur",
+    "region": "Subarnapur, Odisha",
+    "day": 10,
+    "bust_probability": 82.2,
+    "level": "HIGH RISK"
+  },
+  {
+    "state": "Odisha",
+    "district": "Boudh",
+    "region": "Boudh, Odisha",
+    "day": 10,
+    "bust_probability": 82.2,
+    "level": "HIGH RISK"
+  },
+  {
+    "state": "Odisha",
+    "district": "Kandhamal",
+    "region": "Kandhamal, Odisha",
+    "day": 10,
+    "bust_probability": 82.2,
+    "level": "HIGH RISK"
+  },
+  {
+    "state": "Odisha",
+    "district": "Rayagada",
+    "region": "Rayagada, Odisha",
+    "day": 10,
+    "bust_probability": 82.2,
+    "level": "HIGH RISK"
+  },
+  {
+    "state": "Odisha",
+    "district": "Ganjam",
+    "region": "Ganjam, Odisha",
+    "day": 10,
+    "bust_probability": 82.2,
+    "level": "HIGH RISK"
+  },
+  {
+    "state": "Odisha",
+    "district": "Bargarh",
+    "region": "Bargarh, Odisha",
+    "day": 10,
+    "bust_probability": 82.2,
+    "level": "HIGH RISK"
+  }
+]

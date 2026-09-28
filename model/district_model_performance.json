@@ -1,0 +1,209 @@
+{
+  "accuracy": 0.6028,
+  "precision": 0.2932,
+  "recall": 0.7192,
+  "f1": 0.4166,
+  "roc_auc": 0.6923,
+  "pr_auc": 0.315,
+  "brier_score": 0.2194,
+  "confusion_matrix": [
+    [
+      25541,
+      18936
+    ],
+    [
+      3067,
+      7856
+    ]
+  ],
+  "roc_curve": {
+    "fpr": [
+      0.0,
+      0.0255,
+      0.0525,
+      0.0802,
+      0.1111,
+      0.1399,
+      0.1719,
+      0.2051,
+      0.2387,
+      0.2728,
+      0.308,
+      0.3482,
+      0.3876,
+      0.4323,
+      0.4862,
+      0.543,
+      0.6074,
+      0.6843,
+      0.7913,
+      1.0
+    ],
+    "tpr": [
+      0.0,
+      0.0614,
+      0.1219,
+      0.181,
+      0.238,
+      0.2979,
+      0.3559,
+      0.4144,
+      0.4691,
+      0.5228,
+      0.5769,
+      0.6266,
+      0.6758,
+      0.7275,
+      0.7787,
+      0.8246,
+      0.8698,
+      0.9153,
+      0.9583,
+      1.0
+    ]
+  },
+  "pr_curve": {
+    "recall": [
+      1.0,
+      0.9919,
+      0.9827,
+      0.9651,
+      0.9438,
+      0.9195,
+      0.8868,
+      0.8506,
+      0.8088,
+      0.7622,
+      0.7078,
+      0.6485,
+      0.5865,
+      0.5143,
+      0.4386,
+      0.3604,
+      0.2759,
+      0.1889,
+      0.0959,
+      0.0
+    ],
+    "precision": [
+      0.1972,
+      0.2064,
+      0.2165,
+      0.226,
+      0.2357,
+      0.246,
+      0.2556,
+      0.2655,
+      0.2755,
+      0.2855,
+      0.2946,
+      0.3037,
+      0.3139,
+      0.3211,
+      0.3286,
+      0.3375,
+      0.3445,
+      0.3537,
+      0.3594,
+      1.0
+    ]
+  },
+  "calibration_curve": {
+    "mean_predicted": [
+      0.0906,
+      0.1548,
+      0.2521,
+      0.3495,
+      0.4544,
+      0.5542,
+      0.651,
+      0.7046
+    ],
+    "fraction_positive": [
+      0.0202,
+      0.0424,
+      0.0796,
+      0.1258,
+      0.1748,
+      0.2456,
+      0.3223,
+      0.4109
+    ]
+  },
+  "test_set_size": 55400,
+  "train_set_size": 166200,
+  "split_method": "time-based (forecast_issued_date <= 75th percentile = train, later = test)",
+  "note": "Prototype model performance on synthetic demonstration dataset (district-level).",
+  "performance_by_lead_time": [
+    {
+      "day": 1,
+      "accuracy": 0.9697,
+      "roc_auc": 0.5367,
+      "avg_bust_probability": 0.146,
+      "n": 5540
+    },
+    {
+      "day": 2,
+      "accuracy": 0.9265,
+      "roc_auc": 0.5734,
+      "avg_bust_probability": 0.2129,
+      "n": 5540
+    },
+    {
+      "day": 3,
+      "accuracy": 0.9023,
+      "roc_auc": 0.5406,
+      "avg_bust_probability": 0.3047,
+      "n": 5540
+    },
+    {
+      "day": 4,
+      "accuracy": 0.8529,
+      "roc_auc": 0.5298,
+      "avg_bust_probability": 0.3795,
+      "n": 5540
+    },
+    {
+      "day": 5,
+      "accuracy": 0.7484,
+      "roc_auc": 0.545,
+      "avg_bust_probability": 0.4624,
+      "n": 5540
+    },
+    {
+      "day": 6,
+      "accuracy": 0.3776,
+      "roc_auc": 0.5229,
+      "avg_bust_probability": 0.5205,
+      "n": 5540
+    },
+    {
+      "day": 7,
+      "accuracy": 0.2767,
+      "roc_auc": 0.5149,
+      "avg_bust_probability": 0.5706,
+      "n": 5540
+    },
+    {
+      "day": 8,
+      "accuracy": 0.2899,
+      "roc_auc": 0.5017,
+      "avg_bust_probability": 0.6222,
+      "n": 5540
+    },
+    {
+      "day": 9,
+      "accuracy": 0.3327,
+      "roc_auc": 0.5186,
+      "avg_bust_probability": 0.6488,
+      "n": 5540
+    },
+    {
+      "day": 10,
+      "accuracy": 0.3516,
+      "roc_auc": 0.5176,
+      "avg_bust_probability": 0.6758,
+      "n": 5540
+    }
+  ]
+}

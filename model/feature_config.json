@@ -1,0 +1,29 @@
+{
+  "model_type": "RandomForestClassifier",
+  "model_file": "forecast_model.joblib",
+  "features": [
+    "precipitation",
+    "temperature",
+    "pressure",
+    "humidity",
+    "wind_speed",
+    "wind_direction",
+    "lead_time",
+    "latitude",
+    "longitude",
+    "spatial_gradient",
+    "historical_error",
+    "pressure_variation",
+    "precipitation_variability"
+  ],
+  "target": "forecast_bust",
+  "preprocessing": "none; tree models do not require feature scaling",
+  "bust_threshold_file": "../data/bust_thresholds.json",
+  "bust_percentile": 90,
+  "risk_thresholds": {
+    "moderate_bust_min": 0.35,
+    "high_bust_min": 0.65
+  },
+  "train_end_cycle": "2024-03-30",
+  "test_start_cycle": "2024-03-31"
+}

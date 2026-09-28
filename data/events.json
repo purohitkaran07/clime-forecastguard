@@ -1,0 +1,67 @@
+[
+  {
+    "id": "heavy_rainfall",
+    "name": "Heavy Rainfall Event",
+    "region": "Jodhpur, Rajasthan",
+    "lead_time": 4,
+    "forecast_value": 48,
+    "reference_value": 91,
+    "unit": "mm",
+    "forecast_error": 43,
+    "bust_probability": 81,
+    "result": "HIGH-RISK REGION IDENTIFIED",
+    "note": "Demonstration Event \u2014 Synthetic Data"
+  },
+  {
+    "id": "monsoon_depression",
+    "name": "Monsoon Depression",
+    "region": "Puri, Odisha",
+    "lead_time": 5,
+    "forecast_value": 62,
+    "reference_value": 118,
+    "unit": "mm",
+    "forecast_error": 56,
+    "bust_probability": 84,
+    "result": "HIGH-RISK REGION IDENTIFIED",
+    "note": "Demonstration Event \u2014 Synthetic Data"
+  },
+  {
+    "id": "western_disturbance",
+    "name": "Western Disturbance",
+    "region": "Amritsar, Punjab",
+    "lead_time": 3,
+    "forecast_value": 14,
+    "reference_value": 27,
+    "unit": "mm",
+    "forecast_error": 13,
+    "bust_probability": 58,
+    "result": "MODERATE-RISK REGION IDENTIFIED",
+    "note": "Demonstration Event \u2014 Synthetic Data"
+  },
+  {
+    "id": "heat_wave",
+    "name": "Heat Wave",
+    "region": "New Delhi, Delhi",
+    "lead_time": 6,
+    "forecast_value": 39.5,
+    "reference_value": 44.8,
+    "unit": "\u00b0C",
+    "forecast_error": 5.3,
+    "bust_probability": 66,
+    "result": "HIGH-RISK REGION IDENTIFIED",
+    "note": "Demonstration Event \u2014 Synthetic Data"
+  },
+  {
+    "id": "cyclonic_system",
+    "name": "Cyclonic System",
+    "region": "South 24 Parganas, West Bengal",
+    "lead_time": 7,
+    "forecast_value": 70,
+    "reference_value": 142,
+    "unit": "mm",
+    "forecast_error": 72,
+    "bust_probability": 89,
+    "result": "HIGH-RISK REGION IDENTIFIED",
+    "note": "Demonstration Event \u2014 Synthetic Data"
+  }
+]

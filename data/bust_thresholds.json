@@ -1,0 +1,907 @@
+{
+  "variable": "precipitation",
+  "percentile": 90,
+  "train_end_cycle": "2024-03-30",
+  "thresholds": [
+    {
+      "region": "Andhra Pradesh",
+      "lead_time": 1,
+      "threshold": 16.7
+    },
+    {
+      "region": "Andhra Pradesh",
+      "lead_time": 2,
+      "threshold": 18.67
+    },
+    {
+      "region": "Andhra Pradesh",
+      "lead_time": 3,
+      "threshold": 20.59
+    },
+    {
+      "region": "Andhra Pradesh",
+      "lead_time": 4,
+      "threshold": 21.61
+    },
+    {
+      "region": "Andhra Pradesh",
+      "lead_time": 5,
+      "threshold": 23.28
+    },
+    {
+      "region": "Andhra Pradesh",
+      "lead_time": 6,
+      "threshold": 27.21
+    },
+    {
+      "region": "Andhra Pradesh",
+      "lead_time": 7,
+      "threshold": 26.21
+    },
+    {
+      "region": "Andhra Pradesh",
+      "lead_time": 8,
+      "threshold": 27.31
+    },
+    {
+      "region": "Andhra Pradesh",
+      "lead_time": 9,
+      "threshold": 30.72
+    },
+    {
+      "region": "Andhra Pradesh",
+      "lead_time": 10,
+      "threshold": 33.27
+    },
+    {
+      "region": "Assam",
+      "lead_time": 1,
+      "threshold": 18.01
+    },
+    {
+      "region": "Assam",
+      "lead_time": 2,
+      "threshold": 20.04
+    },
+    {
+      "region": "Assam",
+      "lead_time": 3,
+      "threshold": 23.2
+    },
+    {
+      "region": "Assam",
+      "lead_time": 4,
+      "threshold": 25.7
+    },
+    {
+      "region": "Assam",
+      "lead_time": 5,
+      "threshold": 27.82
+    },
+    {
+      "region": "Assam",
+      "lead_time": 6,
+      "threshold": 30.9
+    },
+    {
+      "region": "Assam",
+      "lead_time": 7,
+      "threshold": 33.44
+    },
+    {
+      "region": "Assam",
+      "lead_time": 8,
+      "threshold": 33.8
+    },
+    {
+      "region": "Assam",
+      "lead_time": 9,
+      "threshold": 36.42
+    },
+    {
+      "region": "Assam",
+      "lead_time": 10,
+      "threshold": 41.87
+    },
+    {
+      "region": "Bihar",
+      "lead_time": 1,
+      "threshold": 16.11
+    },
+    {
+      "region": "Bihar",
+      "lead_time": 2,
+      "threshold": 18.45
+    },
+    {
+      "region": "Bihar",
+      "lead_time": 3,
+      "threshold": 20.5
+    },
+    {
+      "region": "Bihar",
+      "lead_time": 4,
+      "threshold": 23.3
+    },
+    {
+      "region": "Bihar",
+      "lead_time": 5,
+      "threshold": 22.81
+    },
+    {
+      "region": "Bihar",
+      "lead_time": 6,
+      "threshold": 27.11
+    },
+    {
+      "region": "Bihar",
+      "lead_time": 7,
+      "threshold": 29.24
+    },
+    {
+      "region": "Bihar",
+      "lead_time": 8,
+      "threshold": 30.64
+    },
+    {
+      "region": "Bihar",
+      "lead_time": 9,
+      "threshold": 32.62
+    },
+    {
+      "region": "Bihar",
+      "lead_time": 10,
+      "threshold": 34.76
+    },
+    {
+      "region": "Chhattisgarh",
+      "lead_time": 1,
+      "threshold": 17.35
+    },
+    {
+      "region": "Chhattisgarh",
+      "lead_time": 2,
+      "threshold": 18.34
+    },
+    {
+      "region": "Chhattisgarh",
+      "lead_time": 3,
+      "threshold": 20.52
+    },
+    {
+      "region": "Chhattisgarh",
+      "lead_time": 4,
+      "threshold": 23.13
+    },
+    {
+      "region": "Chhattisgarh",
+      "lead_time": 5,
+      "threshold": 23.66
+    },
+    {
+      "region": "Chhattisgarh",
+      "lead_time": 6,
+      "threshold": 26.91
+    },
+    {
+      "region": "Chhattisgarh",
+      "lead_time": 7,
+      "threshold": 28.17
+    },
+    {
+      "region": "Chhattisgarh",
+      "lead_time": 8,
+      "threshold": 30.29
+    },
+    {
+      "region": "Chhattisgarh",
+      "lead_time": 9,
+      "threshold": 36.44
+    },
+    {
+      "region": "Chhattisgarh",
+      "lead_time": 10,
+      "threshold": 34.0
+    },
+    {
+      "region": "Delhi",
+      "lead_time": 1,
+      "threshold": 14.43
+    },
+    {
+      "region": "Delhi",
+      "lead_time": 2,
+      "threshold": 15.02
+    },
+    {
+      "region": "Delhi",
+      "lead_time": 3,
+      "threshold": 16.44
+    },
+    {
+      "region": "Delhi",
+      "lead_time": 4,
+      "threshold": 17.98
+    },
+    {
+      "region": "Delhi",
+      "lead_time": 5,
+      "threshold": 19.32
+    },
+    {
+      "region": "Delhi",
+      "lead_time": 6,
+      "threshold": 20.65
+    },
+    {
+      "region": "Delhi",
+      "lead_time": 7,
+      "threshold": 21.78
+    },
+    {
+      "region": "Delhi",
+      "lead_time": 8,
+      "threshold": 25.27
+    },
+    {
+      "region": "Delhi",
+      "lead_time": 9,
+      "threshold": 27.03
+    },
+    {
+      "region": "Delhi",
+      "lead_time": 10,
+      "threshold": 27.0
+    },
+    {
+      "region": "Gujarat",
+      "lead_time": 1,
+      "threshold": 14.9
+    },
+    {
+      "region": "Gujarat",
+      "lead_time": 2,
+      "threshold": 16.41
+    },
+    {
+      "region": "Gujarat",
+      "lead_time": 3,
+      "threshold": 17.81
+    },
+    {
+      "region": "Gujarat",
+      "lead_time": 4,
+      "threshold": 21.44
+    },
+    {
+      "region": "Gujarat",
+      "lead_time": 5,
+      "threshold": 22.23
+    },
+    {
+      "region": "Gujarat",
+      "lead_time": 6,
+      "threshold": 25.16
+    },
+    {
+      "region": "Gujarat",
+      "lead_time": 7,
+      "threshold": 25.13
+    },
+    {
+      "region": "Gujarat",
+      "lead_time": 8,
+      "threshold": 27.23
+    },
+    {
+      "region": "Gujarat",
+      "lead_time": 9,
+      "threshold": 28.25
+    },
+    {
+      "region": "Gujarat",
+      "lead_time": 10,
+      "threshold": 31.91
+    },
+    {
+      "region": "Jharkhand",
+      "lead_time": 1,
+      "threshold": 17.11
+    },
+    {
+      "region": "Jharkhand",
+      "lead_time": 2,
+      "threshold": 18.45
+    },
+    {
+      "region": "Jharkhand",
+      "lead_time": 3,
+      "threshold": 20.51
+    },
+    {
+      "region": "Jharkhand",
+      "lead_time": 4,
+      "threshold": 22.1
+    },
+    {
+      "region": "Jharkhand",
+      "lead_time": 5,
+      "threshold": 22.41
+    },
+    {
+      "region": "Jharkhand",
+      "lead_time": 6,
+      "threshold": 26.16
+    },
+    {
+      "region": "Jharkhand",
+      "lead_time": 7,
+      "threshold": 28.65
+    },
+    {
+      "region": "Jharkhand",
+      "lead_time": 8,
+      "threshold": 29.96
+    },
+    {
+      "region": "Jharkhand",
+      "lead_time": 9,
+      "threshold": 31.14
+    },
+    {
+      "region": "Jharkhand",
+      "lead_time": 10,
+      "threshold": 35.2
+    },
+    {
+      "region": "Karnataka",
+      "lead_time": 1,
+      "threshold": 14.23
+    },
+    {
+      "region": "Karnataka",
+      "lead_time": 2,
+      "threshold": 17.21
+    },
+    {
+      "region": "Karnataka",
+      "lead_time": 3,
+      "threshold": 18.04
+    },
+    {
+      "region": "Karnataka",
+      "lead_time": 4,
+      "threshold": 21.94
+    },
+    {
+      "region": "Karnataka",
+      "lead_time": 5,
+      "threshold": 23.4
+    },
+    {
+      "region": "Karnataka",
+      "lead_time": 6,
+      "threshold": 24.83
+    },
+    {
+      "region": "Karnataka",
+      "lead_time": 7,
+      "threshold": 24.56
+    },
+    {
+      "region": "Karnataka",
+      "lead_time": 8,
+      "threshold": 30.1
+    },
+    {
+      "region": "Karnataka",
+      "lead_time": 9,
+      "threshold": 29.6
+    },
+    {
+      "region": "Karnataka",
+      "lead_time": 10,
+      "threshold": 32.24
+    },
+    {
+      "region": "Kerala",
+      "lead_time": 1,
+      "threshold": 18.09
+    },
+    {
+      "region": "Kerala",
+      "lead_time": 2,
+      "threshold": 23.11
+    },
+    {
+      "region": "Kerala",
+      "lead_time": 3,
+      "threshold": 21.07
+    },
+    {
+      "region": "Kerala",
+      "lead_time": 4,
+      "threshold": 25.12
+    },
+    {
+      "region": "Kerala",
+      "lead_time": 5,
+      "threshold": 26.83
+    },
+    {
+      "region": "Kerala",
+      "lead_time": 6,
+      "threshold": 28.52
+    },
+    {
+      "region": "Kerala",
+      "lead_time": 7,
+      "threshold": 29.06
+    },
+    {
+      "region": "Kerala",
+      "lead_time": 8,
+      "threshold": 32.56
+    },
+    {
+      "region": "Kerala",
+      "lead_time": 9,
+      "threshold": 32.89
+    },
+    {
+      "region": "Kerala",
+      "lead_time": 10,
+      "threshold": 39.35
+    },
+    {
+      "region": "Madhya Pradesh",
+      "lead_time": 1,
+      "threshold": 14.31
+    },
+    {
+      "region": "Madhya Pradesh",
+      "lead_time": 2,
+      "threshold": 16.46
+    },
+    {
+      "region": "Madhya Pradesh",
+      "lead_time": 3,
+      "threshold": 21.25
+    },
+    {
+      "region": "Madhya Pradesh",
+      "lead_time": 4,
+      "threshold": 20.63
+    },
+    {
+      "region": "Madhya Pradesh",
+      "lead_time": 5,
+      "threshold": 20.61
+    },
+    {
+      "region": "Madhya Pradesh",
+      "lead_time": 6,
+      "threshold": 24.95
+    },
+    {
+      "region": "Madhya Pradesh",
+      "lead_time": 7,
+      "threshold": 26.72
+    },
+    {
+      "region": "Madhya Pradesh",
+      "lead_time": 8,
+      "threshold": 27.5
+    },
+    {
+      "region": "Madhya Pradesh",
+      "lead_time": 9,
+      "threshold": 30.13
+    },
+    {
+      "region": "Madhya Pradesh",
+      "lead_time": 10,
+      "threshold": 32.43
+    },
+    {
+      "region": "Maharashtra",
+      "lead_time": 1,
+      "threshold": 16.02
+    },
+    {
+      "region": "Maharashtra",
+      "lead_time": 2,
+      "threshold": 19.51
+    },
+    {
+      "region": "Maharashtra",
+      "lead_time": 3,
+      "threshold": 21.34
+    },
+    {
+      "region": "Maharashtra",
+      "lead_time": 4,
+      "threshold": 24.17
+    },
+    {
+      "region": "Maharashtra",
+      "lead_time": 5,
+      "threshold": 24.39
+    },
+    {
+      "region": "Maharashtra",
+      "lead_time": 6,
+      "threshold": 27.64
+    },
+    {
+      "region": "Maharashtra",
+      "lead_time": 7,
+      "threshold": 30.12
+    },
+    {
+      "region": "Maharashtra",
+      "lead_time": 8,
+      "threshold": 31.96
+    },
+    {
+      "region": "Maharashtra",
+      "lead_time": 9,
+      "threshold": 33.44
+    },
+    {
+      "region": "Maharashtra",
+      "lead_time": 10,
+      "threshold": 33.75
+    },
+    {
+      "region": "Odisha",
+      "lead_time": 1,
+      "threshold": 18.21
+    },
+    {
+      "region": "Odisha",
+      "lead_time": 2,
+      "threshold": 21.21
+    },
+    {
+      "region": "Odisha",
+      "lead_time": 3,
+      "threshold": 25.1
+    },
+    {
+      "region": "Odisha",
+      "lead_time": 4,
+      "threshold": 28.84
+    },
+    {
+      "region": "Odisha",
+      "lead_time": 5,
+      "threshold": 28.71
+    },
+    {
+      "region": "Odisha",
+      "lead_time": 6,
+      "threshold": 31.0
+    },
+    {
+      "region": "Odisha",
+      "lead_time": 7,
+      "threshold": 32.62
+    },
+    {
+      "region": "Odisha",
+      "lead_time": 8,
+      "threshold": 35.6
+    },
+    {
+      "region": "Odisha",
+      "lead_time": 9,
+      "threshold": 37.72
+    },
+    {
+      "region": "Odisha",
+      "lead_time": 10,
+      "threshold": 38.52
+    },
+    {
+      "region": "Punjab",
+      "lead_time": 1,
+      "threshold": 14.08
+    },
+    {
+      "region": "Punjab",
+      "lead_time": 2,
+      "threshold": 14.41
+    },
+    {
+      "region": "Punjab",
+      "lead_time": 3,
+      "threshold": 16.32
+    },
+    {
+      "region": "Punjab",
+      "lead_time": 4,
+      "threshold": 18.31
+    },
+    {
+      "region": "Punjab",
+      "lead_time": 5,
+      "threshold": 19.14
+    },
+    {
+      "region": "Punjab",
+      "lead_time": 6,
+      "threshold": 18.92
+    },
+    {
+      "region": "Punjab",
+      "lead_time": 7,
+      "threshold": 19.82
+    },
+    {
+      "region": "Punjab",
+      "lead_time": 8,
+      "threshold": 21.08
+    },
+    {
+      "region": "Punjab",
+      "lead_time": 9,
+      "threshold": 25.21
+    },
+    {
+      "region": "Punjab",
+      "lead_time": 10,
+      "threshold": 26.64
+    },
+    {
+      "region": "Rajasthan",
+      "lead_time": 1,
+      "threshold": 15.7
+    },
+    {
+      "region": "Rajasthan",
+      "lead_time": 2,
+      "threshold": 20.18
+    },
+    {
+      "region": "Rajasthan",
+      "lead_time": 3,
+      "threshold": 19.12
+    },
+    {
+      "region": "Rajasthan",
+      "lead_time": 4,
+      "threshold": 22.3
+    },
+    {
+      "region": "Rajasthan",
+      "lead_time": 5,
+      "threshold": 23.52
+    },
+    {
+      "region": "Rajasthan",
+      "lead_time": 6,
+      "threshold": 24.55
+    },
+    {
+      "region": "Rajasthan",
+      "lead_time": 7,
+      "threshold": 26.5
+    },
+    {
+      "region": "Rajasthan",
+      "lead_time": 8,
+      "threshold": 29.63
+    },
+    {
+      "region": "Rajasthan",
+      "lead_time": 9,
+      "threshold": 33.41
+    },
+    {
+      "region": "Rajasthan",
+      "lead_time": 10,
+      "threshold": 33.42
+    },
+    {
+      "region": "Tamil Nadu",
+      "lead_time": 1,
+      "threshold": 15.44
+    },
+    {
+      "region": "Tamil Nadu",
+      "lead_time": 2,
+      "threshold": 17.35
+    },
+    {
+      "region": "Tamil Nadu",
+      "lead_time": 3,
+      "threshold": 20.35
+    },
+    {
+      "region": "Tamil Nadu",
+      "lead_time": 4,
+      "threshold": 22.85
+    },
+    {
+      "region": "Tamil Nadu",
+      "lead_time": 5,
+      "threshold": 23.83
+    },
+    {
+      "region": "Tamil Nadu",
+      "lead_time": 6,
+      "threshold": 24.9
+    },
+    {
+      "region": "Tamil Nadu",
+      "lead_time": 7,
+      "threshold": 27.92
+    },
+    {
+      "region": "Tamil Nadu",
+      "lead_time": 8,
+      "threshold": 28.63
+    },
+    {
+      "region": "Tamil Nadu",
+      "lead_time": 9,
+      "threshold": 33.63
+    },
+    {
+      "region": "Tamil Nadu",
+      "lead_time": 10,
+      "threshold": 33.54
+    },
+    {
+      "region": "Telangana",
+      "lead_time": 1,
+      "threshold": 16.01
+    },
+    {
+      "region": "Telangana",
+      "lead_time": 2,
+      "threshold": 17.2
+    },
+    {
+      "region": "Telangana",
+      "lead_time": 3,
+      "threshold": 19.51
+    },
+    {
+      "region": "Telangana",
+      "lead_time": 4,
+      "threshold": 20.92
+    },
+    {
+      "region": "Telangana",
+      "lead_time": 5,
+      "threshold": 23.23
+    },
+    {
+      "region": "Telangana",
+      "lead_time": 6,
+      "threshold": 24.04
+    },
+    {
+      "region": "Telangana",
+      "lead_time": 7,
+      "threshold": 27.52
+    },
+    {
+      "region": "Telangana",
+      "lead_time": 8,
+      "threshold": 27.03
+    },
+    {
+      "region": "Telangana",
+      "lead_time": 9,
+      "threshold": 30.17
+    },
+    {
+      "region": "Telangana",
+      "lead_time": 10,
+      "threshold": 30.06
+    },
+    {
+      "region": "Uttar Pradesh",
+      "lead_time": 1,
+      "threshold": 11.91
+    },
+    {
+      "region": "Uttar Pradesh",
+      "lead_time": 2,
+      "threshold": 16.2
+    },
+    {
+      "region": "Uttar Pradesh",
+      "lead_time": 3,
+      "threshold": 18.74
+    },
+    {
+      "region": "Uttar Pradesh",
+      "lead_time": 4,
+      "threshold": 18.56
+    },
+    {
+      "region": "Uttar Pradesh",
+      "lead_time": 5,
+      "threshold": 21.95
+    },
+    {
+      "region": "Uttar Pradesh",
+      "lead_time": 6,
+      "threshold": 21.93
+    },
+    {
+      "region": "Uttar Pradesh",
+      "lead_time": 7,
+      "threshold": 23.41
+    },
+    {
+      "region": "Uttar Pradesh",
+      "lead_time": 8,
+      "threshold": 27.63
+    },
+    {
+      "region": "Uttar Pradesh",
+      "lead_time": 9,
+      "threshold": 28.41
+    },
+    {
+      "region": "Uttar Pradesh",
+      "lead_time": 10,
+      "threshold": 28.51
+    },
+    {
+      "region": "West Bengal",
+      "lead_time": 1,
+      "threshold": 18.8
+    },
+    {
+      "region": "West Bengal",
+      "lead_time": 2,
+      "threshold": 20.11
+    },
+    {
+      "region": "West Bengal",
+      "lead_time": 3,
+      "threshold": 23.89
+    },
+    {
+      "region": "West Bengal",
+      "lead_time": 4,
+      "threshold": 26.83
+    },
+    {
+      "region": "West Bengal",
+      "lead_time": 5,
+      "threshold": 26.98
+    },
+    {
+      "region": "West Bengal",
+      "lead_time": 6,
+      "threshold": 29.31
+    },
+    {
+      "region": "West Bengal",
+      "lead_time": 7,
+      "threshold": 34.54
+    },
+    {
+      "region": "West Bengal",
+      "lead_time": 8,
+      "threshold": 34.87
+    },
+    {
+      "region": "West Bengal",
+      "lead_time": 9,
+      "threshold": 38.01
+    },
+    {
+      "region": "West Bengal",
+      "lead_time": 10,
+      "threshold": 43.33
+    }
+  ]
+}

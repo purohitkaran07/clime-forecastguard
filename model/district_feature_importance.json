@@ -1,0 +1,54 @@
+[
+  {
+    "feature": "lead_time",
+    "importance": 0.4039
+  },
+  {
+    "feature": "spatial_gradient",
+    "importance": 0.1461
+  },
+  {
+    "feature": "historical_error",
+    "importance": 0.0889
+  },
+  {
+    "feature": "pressure_variation",
+    "importance": 0.0866
+  },
+  {
+    "feature": "precipitation_variability",
+    "importance": 0.0669
+  },
+  {
+    "feature": "wind_direction",
+    "importance": 0.0597
+  },
+  {
+    "feature": "precipitation",
+    "importance": 0.0279
+  },
+  {
+    "feature": "longitude",
+    "importance": 0.0274
+  },
+  {
+    "feature": "latitude",
+    "importance": 0.0232
+  },
+  {
+    "feature": "wind_speed",
+    "importance": 0.0199
+  },
+  {
+    "feature": "humidity",
+    "importance": 0.017
+  },
+  {
+    "feature": "temperature",
+    "importance": 0.0163
+  },
+  {
+    "feature": "pressure",
+    "importance": 0.0162
+  }
+]

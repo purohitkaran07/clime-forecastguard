@@ -1,0 +1,1351 @@
+{
+  "version": "2.0.0",
+  "description": "Historical NWP forecast-error statistics across Indian regions and lead times (Day 1-10).",
+  "data_type": "synthetic_prototype",
+  "regions": {
+    "Rajasthan": {
+      "region": "Rajasthan",
+      "grid_id": "IN-RA",
+      "latitude": 27.0,
+      "longitude": 74.2,
+      "by_lead_time": [
+        {
+          "lead_time": 1,
+          "mean_historical_error_feature": 10.69,
+          "historical_error_std": 4.04,
+          "bust_frequency": 0.025
+        },
+        {
+          "lead_time": 2,
+          "mean_historical_error_feature": 13.59,
+          "historical_error_std": 3.86,
+          "bust_frequency": 0.0
+        },
+        {
+          "lead_time": 3,
+          "mean_historical_error_feature": 15.2,
+          "historical_error_std": 3.79,
+          "bust_frequency": 0.125
+        },
+        {
+          "lead_time": 4,
+          "mean_historical_error_feature": 17.48,
+          "historical_error_std": 3.82,
+          "bust_frequency": 0.15
+        },
+        {
+          "lead_time": 5,
+          "mean_historical_error_feature": 18.89,
+          "historical_error_std": 3.34,
+          "bust_frequency": 0.175
+        },
+        {
+          "lead_time": 6,
+          "mean_historical_error_feature": 21.94,
+          "historical_error_std": 3.62,
+          "bust_frequency": 0.25
+        },
+        {
+          "lead_time": 7,
+          "mean_historical_error_feature": 23.61,
+          "historical_error_std": 4.27,
+          "bust_frequency": 0.3
+        },
+        {
+          "lead_time": 8,
+          "mean_historical_error_feature": 26.14,
+          "historical_error_std": 3.47,
+          "bust_frequency": 0.4
+        },
+        {
+          "lead_time": 9,
+          "mean_historical_error_feature": 27.77,
+          "historical_error_std": 4.33,
+          "bust_frequency": 0.325
+        },
+        {
+          "lead_time": 10,
+          "mean_historical_error_feature": 29.11,
+          "historical_error_std": 2.71,
+          "bust_frequency": 0.25
+        }
+      ],
+      "high_risk_lead_times": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "primary_vulnerability": "Precipitation underestimation during convective / monsoon boundary conditions"
+    },
+    "Gujarat": {
+      "region": "Gujarat",
+      "grid_id": "IN-GU",
+      "latitude": 22.3,
+      "longitude": 71.2,
+      "by_lead_time": [
+        {
+          "lead_time": 1,
+          "mean_historical_error_feature": 9.12,
+          "historical_error_std": 3.57,
+          "bust_frequency": 0.05
+        },
+        {
+          "lead_time": 2,
+          "mean_historical_error_feature": 11.08,
+          "historical_error_std": 3.95,
+          "bust_frequency": 0.05
+        },
+        {
+          "lead_time": 3,
+          "mean_historical_error_feature": 12.72,
+          "historical_error_std": 4.94,
+          "bust_frequency": 0.125
+        },
+        {
+          "lead_time": 4,
+          "mean_historical_error_feature": 14.6,
+          "historical_error_std": 3.91,
+          "bust_frequency": 0.175
+        },
+        {
+          "lead_time": 5,
+          "mean_historical_error_feature": 16.66,
+          "historical_error_std": 4.12,
+          "bust_frequency": 0.25
+        },
+        {
+          "lead_time": 6,
+          "mean_historical_error_feature": 18.02,
+          "historical_error_std": 3.72,
+          "bust_frequency": 0.175
+        },
+        {
+          "lead_time": 7,
+          "mean_historical_error_feature": 20.72,
+          "historical_error_std": 4.19,
+          "bust_frequency": 0.25
+        },
+        {
+          "lead_time": 8,
+          "mean_historical_error_feature": 21.12,
+          "historical_error_std": 4.08,
+          "bust_frequency": 0.225
+        },
+        {
+          "lead_time": 9,
+          "mean_historical_error_feature": 23.97,
+          "historical_error_std": 3.89,
+          "bust_frequency": 0.3
+        },
+        {
+          "lead_time": 10,
+          "mean_historical_error_feature": 24.89,
+          "historical_error_std": 4.05,
+          "bust_frequency": 0.4
+        }
+      ],
+      "high_risk_lead_times": [
+        5,
+        7,
+        9,
+        10
+      ],
+      "primary_vulnerability": "Precipitation underestimation during convective / monsoon boundary conditions"
+    },
+    "Maharashtra": {
+      "region": "Maharashtra",
+      "grid_id": "IN-MA",
+      "latitude": 19.7,
+      "longitude": 75.7,
+      "by_lead_time": [
+        {
+          "lead_time": 1,
+          "mean_historical_error_feature": 9.96,
+          "historical_error_std": 4.32,
+          "bust_frequency": 0.025
+        },
+        {
+          "lead_time": 2,
+          "mean_historical_error_feature": 11.56,
+          "historical_error_std": 3.36,
+          "bust_frequency": 0.05
+        },
+        {
+          "lead_time": 3,
+          "mean_historical_error_feature": 14.2,
+          "historical_error_std": 3.32,
+          "bust_frequency": 0.1
+        },
+        {
+          "lead_time": 4,
+          "mean_historical_error_feature": 16.43,
+          "historical_error_std": 4.69,
+          "bust_frequency": 0.1
+        },
+        {
+          "lead_time": 5,
+          "mean_historical_error_feature": 17.34,
+          "historical_error_std": 4.04,
+          "bust_frequency": 0.15
+        },
+        {
+          "lead_time": 6,
+          "mean_historical_error_feature": 19.22,
+          "historical_error_std": 4.38,
+          "bust_frequency": 0.25
+        },
+        {
+          "lead_time": 7,
+          "mean_historical_error_feature": 21.44,
+          "historical_error_std": 4.32,
+          "bust_frequency": 0.225
+        },
+        {
+          "lead_time": 8,
+          "mean_historical_error_feature": 23.83,
+          "historical_error_std": 4.17,
+          "bust_frequency": 0.3
+        },
+        {
+          "lead_time": 9,
+          "mean_historical_error_feature": 26.48,
+          "historical_error_std": 3.94,
+          "bust_frequency": 0.35
+        },
+        {
+          "lead_time": 10,
+          "mean_historical_error_feature": 26.5,
+          "historical_error_std": 4.59,
+          "bust_frequency": 0.425
+        }
+      ],
+      "high_risk_lead_times": [
+        6,
+        8,
+        9,
+        10
+      ],
+      "primary_vulnerability": "Precipitation underestimation during convective / monsoon boundary conditions"
+    },
+    "Madhya Pradesh": {
+      "region": "Madhya Pradesh",
+      "grid_id": "IN-MA",
+      "latitude": 23.5,
+      "longitude": 78.6,
+      "by_lead_time": [
+        {
+          "lead_time": 1,
+          "mean_historical_error_feature": 9.8,
+          "historical_error_std": 4.12,
+          "bust_frequency": 0.0
+        },
+        {
+          "lead_time": 2,
+          "mean_historical_error_feature": 10.85,
+          "historical_error_std": 3.89,
+          "bust_frequency": 0.025
+        },
+        {
+          "lead_time": 3,
+          "mean_historical_error_feature": 11.79,
+          "historical_error_std": 4.52,
+          "bust_frequency": 0.0
+        },
+        {
+          "lead_time": 4,
+          "mean_historical_error_feature": 12.91,
+          "historical_error_std": 4.33,
+          "bust_frequency": 0.15
+        },
+        {
+          "lead_time": 5,
+          "mean_historical_error_feature": 14.96,
+          "historical_error_std": 3.94,
+          "bust_frequency": 0.125
+        },
+        {
+          "lead_time": 6,
+          "mean_historical_error_feature": 16.47,
+          "historical_error_std": 3.93,
+          "bust_frequency": 0.2
+        },
+        {
+          "lead_time": 7,
+          "mean_historical_error_feature": 17.78,
+          "historical_error_std": 4.02,
+          "bust_frequency": 0.275
+        },
+        {
+          "lead_time": 8,
+          "mean_historical_error_feature": 19.76,
+          "historical_error_std": 3.88,
+          "bust_frequency": 0.325
+        },
+        {
+          "lead_time": 9,
+          "mean_historical_error_feature": 23.01,
+          "historical_error_std": 3.59,
+          "bust_frequency": 0.5
+        },
+        {
+          "lead_time": 10,
+          "mean_historical_error_feature": 22.55,
+          "historical_error_std": 2.88,
+          "bust_frequency": 0.4
+        }
+      ],
+      "high_risk_lead_times": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "primary_vulnerability": "Precipitation underestimation during convective / monsoon boundary conditions"
+    },
+    "Uttar Pradesh": {
+      "region": "Uttar Pradesh",
+      "grid_id": "IN-UT",
+      "latitude": 26.8,
+      "longitude": 80.9,
+      "by_lead_time": [
+        {
+          "lead_time": 1,
+          "mean_historical_error_feature": 7.71,
+          "historical_error_std": 4.19,
+          "bust_frequency": 0.0
+        },
+        {
+          "lead_time": 2,
+          "mean_historical_error_feature": 10.03,
+          "historical_error_std": 3.22,
+          "bust_frequency": 0.1
+        },
+        {
+          "lead_time": 3,
+          "mean_historical_error_feature": 11.38,
+          "historical_error_std": 3.59,
+          "bust_frequency": 0.1
+        },
+        {
+          "lead_time": 4,
+          "mean_historical_error_feature": 12.76,
+          "historical_error_std": 4.04,
+          "bust_frequency": 0.1
+        },
+        {
+          "lead_time": 5,
+          "mean_historical_error_feature": 14.38,
+          "historical_error_std": 4.62,
+          "bust_frequency": 0.225
+        },
+        {
+          "lead_time": 6,
+          "mean_historical_error_feature": 15.56,
+          "historical_error_std": 3.09,
+          "bust_frequency": 0.175
+        },
+        {
+          "lead_time": 7,
+          "mean_historical_error_feature": 15.87,
+          "historical_error_std": 3.7,
+          "bust_frequency": 0.2
+        },
+        {
+          "lead_time": 8,
+          "mean_historical_error_feature": 17.65,
+          "historical_error_std": 3.49,
+          "bust_frequency": 0.35
+        },
+        {
+          "lead_time": 9,
+          "mean_historical_error_feature": 19.82,
+          "historical_error_std": 4.59,
+          "bust_frequency": 0.3
+        },
+        {
+          "lead_time": 10,
+          "mean_historical_error_feature": 21.07,
+          "historical_error_std": 3.66,
+          "bust_frequency": 0.45
+        }
+      ],
+      "high_risk_lead_times": [
+        8,
+        9,
+        10
+      ],
+      "primary_vulnerability": "Precipitation underestimation during convective / monsoon boundary conditions"
+    },
+    "Odisha": {
+      "region": "Odisha",
+      "grid_id": "IN-OD",
+      "latitude": 20.9,
+      "longitude": 85.1,
+      "by_lead_time": [
+        {
+          "lead_time": 1,
+          "mean_historical_error_feature": 11.0,
+          "historical_error_std": 4.1,
+          "bust_frequency": 0.025
+        },
+        {
+          "lead_time": 2,
+          "mean_historical_error_feature": 14.36,
+          "historical_error_std": 4.27,
+          "bust_frequency": 0.05
+        },
+        {
+          "lead_time": 3,
+          "mean_historical_error_feature": 17.14,
+          "historical_error_std": 3.82,
+          "bust_frequency": 0.075
+        },
+        {
+          "lead_time": 4,
+          "mean_historical_error_feature": 18.54,
+          "historical_error_std": 4.55,
+          "bust_frequency": 0.225
+        },
+        {
+          "lead_time": 5,
+          "mean_historical_error_feature": 20.09,
+          "historical_error_std": 4.13,
+          "bust_frequency": 0.1
+        },
+        {
+          "lead_time": 6,
+          "mean_historical_error_feature": 22.74,
+          "historical_error_std": 3.79,
+          "bust_frequency": 0.15
+        },
+        {
+          "lead_time": 7,
+          "mean_historical_error_feature": 25.54,
+          "historical_error_std": 4.27,
+          "bust_frequency": 0.225
+        },
+        {
+          "lead_time": 8,
+          "mean_historical_error_feature": 27.42,
+          "historical_error_std": 4.49,
+          "bust_frequency": 0.35
+        },
+        {
+          "lead_time": 9,
+          "mean_historical_error_feature": 29.65,
+          "historical_error_std": 4.32,
+          "bust_frequency": 0.4
+        },
+        {
+          "lead_time": 10,
+          "mean_historical_error_feature": 32.42,
+          "historical_error_std": 4.3,
+          "bust_frequency": 0.4
+        }
+      ],
+      "high_risk_lead_times": [
+        8,
+        9,
+        10
+      ],
+      "primary_vulnerability": "Precipitation underestimation during convective / monsoon boundary conditions"
+    },
+    "West Bengal": {
+      "region": "West Bengal",
+      "grid_id": "IN-WE",
+      "latitude": 22.9,
+      "longitude": 87.8,
+      "by_lead_time": [
+        {
+          "lead_time": 1,
+          "mean_historical_error_feature": 11.39,
+          "historical_error_std": 3.82,
+          "bust_frequency": 0.1
+        },
+        {
+          "lead_time": 2,
+          "mean_historical_error_feature": 13.03,
+          "historical_error_std": 4.86,
+          "bust_frequency": 0.025
+        },
+        {
+          "lead_time": 3,
+          "mean_historical_error_feature": 14.84,
+          "historical_error_std": 3.94,
+          "bust_frequency": 0.075
+        },
+        {
+          "lead_time": 4,
+          "mean_historical_error_feature": 16.95,
+          "historical_error_std": 3.71,
+          "bust_frequency": 0.15
+        },
+        {
+          "lead_time": 5,
+          "mean_historical_error_feature": 18.57,
+          "historical_error_std": 4.15,
+          "bust_frequency": 0.1
+        },
+        {
+          "lead_time": 6,
+          "mean_historical_error_feature": 21.07,
+          "historical_error_std": 3.73,
+          "bust_frequency": 0.175
+        },
+        {
+          "lead_time": 7,
+          "mean_historical_error_feature": 23.38,
+          "historical_error_std": 4.54,
+          "bust_frequency": 0.25
+        },
+        {
+          "lead_time": 8,
+          "mean_historical_error_feature": 24.17,
+          "historical_error_std": 4.16,
+          "bust_frequency": 0.3
+        },
+        {
+          "lead_time": 9,
+          "mean_historical_error_feature": 26.95,
+          "historical_error_std": 3.9,
+          "bust_frequency": 0.375
+        },
+        {
+          "lead_time": 10,
+          "mean_historical_error_feature": 29.0,
+          "historical_error_std": 3.85,
+          "bust_frequency": 0.425
+        }
+      ],
+      "high_risk_lead_times": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "primary_vulnerability": "Precipitation underestimation during convective / monsoon boundary conditions"
+    },
+    "Assam": {
+      "region": "Assam",
+      "grid_id": "IN-AS",
+      "latitude": 26.2,
+      "longitude": 92.9,
+      "by_lead_time": [
+        {
+          "lead_time": 1,
+          "mean_historical_error_feature": 10.02,
+          "historical_error_std": 3.65,
+          "bust_frequency": 0.05
+        },
+        {
+          "lead_time": 2,
+          "mean_historical_error_feature": 12.44,
+          "historical_error_std": 3.42,
+          "bust_frequency": 0.025
+        },
+        {
+          "lead_time": 3,
+          "mean_historical_error_feature": 13.25,
+          "historical_error_std": 4.18,
+          "bust_frequency": 0.075
+        },
+        {
+          "lead_time": 4,
+          "mean_historical_error_feature": 16.09,
+          "historical_error_std": 4.59,
+          "bust_frequency": 0.175
+        },
+        {
+          "lead_time": 5,
+          "mean_historical_error_feature": 17.77,
+          "historical_error_std": 4.24,
+          "bust_frequency": 0.175
+        },
+        {
+          "lead_time": 6,
+          "mean_historical_error_feature": 19.63,
+          "historical_error_std": 3.92,
+          "bust_frequency": 0.2
+        },
+        {
+          "lead_time": 7,
+          "mean_historical_error_feature": 21.96,
+          "historical_error_std": 3.2,
+          "bust_frequency": 0.25
+        },
+        {
+          "lead_time": 8,
+          "mean_historical_error_feature": 24.18,
+          "historical_error_std": 3.74,
+          "bust_frequency": 0.3
+        },
+        {
+          "lead_time": 9,
+          "mean_historical_error_feature": 25.93,
+          "historical_error_std": 3.74,
+          "bust_frequency": 0.4
+        },
+        {
+          "lead_time": 10,
+          "mean_historical_error_feature": 26.85,
+          "historical_error_std": 3.69,
+          "bust_frequency": 0.35
+        }
+      ],
+      "high_risk_lead_times": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "primary_vulnerability": "Precipitation underestimation during convective / monsoon boundary conditions"
+    },
+    "Kerala": {
+      "region": "Kerala",
+      "grid_id": "IN-KE",
+      "latitude": 10.5,
+      "longitude": 76.2,
+      "by_lead_time": [
+        {
+          "lead_time": 1,
+          "mean_historical_error_feature": 9.66,
+          "historical_error_std": 3.68,
+          "bust_frequency": 0.025
+        },
+        {
+          "lead_time": 2,
+          "mean_historical_error_feature": 11.93,
+          "historical_error_std": 3.89,
+          "bust_frequency": 0.1
+        },
+        {
+          "lead_time": 3,
+          "mean_historical_error_feature": 12.93,
+          "historical_error_std": 3.97,
+          "bust_frequency": 0.075
+        },
+        {
+          "lead_time": 4,
+          "mean_historical_error_feature": 14.18,
+          "historical_error_std": 3.9,
+          "bust_frequency": 0.125
+        },
+        {
+          "lead_time": 5,
+          "mean_historical_error_feature": 17.76,
+          "historical_error_std": 4.1,
+          "bust_frequency": 0.1
+        },
+        {
+          "lead_time": 6,
+          "mean_historical_error_feature": 17.75,
+          "historical_error_std": 3.68,
+          "bust_frequency": 0.175
+        },
+        {
+          "lead_time": 7,
+          "mean_historical_error_feature": 19.68,
+          "historical_error_std": 4.03,
+          "bust_frequency": 0.275
+        },
+        {
+          "lead_time": 8,
+          "mean_historical_error_feature": 21.8,
+          "historical_error_std": 4.71,
+          "bust_frequency": 0.35
+        },
+        {
+          "lead_time": 9,
+          "mean_historical_error_feature": 22.55,
+          "historical_error_std": 4.16,
+          "bust_frequency": 0.4
+        },
+        {
+          "lead_time": 10,
+          "mean_historical_error_feature": 23.5,
+          "historical_error_std": 4.06,
+          "bust_frequency": 0.375
+        }
+      ],
+      "high_risk_lead_times": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "primary_vulnerability": "Precipitation underestimation during convective / monsoon boundary conditions"
+    },
+    "Tamil Nadu": {
+      "region": "Tamil Nadu",
+      "grid_id": "IN-TA",
+      "latitude": 11.1,
+      "longitude": 78.7,
+      "by_lead_time": [
+        {
+          "lead_time": 1,
+          "mean_historical_error_feature": 9.04,
+          "historical_error_std": 4.16,
+          "bust_frequency": 0.025
+        },
+        {
+          "lead_time": 2,
+          "mean_historical_error_feature": 11.43,
+          "historical_error_std": 4.13,
+          "bust_frequency": 0.05
+        },
+        {
+          "lead_time": 3,
+          "mean_historical_error_feature": 13.08,
+          "historical_error_std": 3.9,
+          "bust_frequency": 0.075
+        },
+        {
+          "lead_time": 4,
+          "mean_historical_error_feature": 15.37,
+          "historical_error_std": 3.69,
+          "bust_frequency": 0.2
+        },
+        {
+          "lead_time": 5,
+          "mean_historical_error_feature": 15.97,
+          "historical_error_std": 2.92,
+          "bust_frequency": 0.1
+        },
+        {
+          "lead_time": 6,
+          "mean_historical_error_feature": 18.9,
+          "historical_error_std": 3.84,
+          "bust_frequency": 0.15
+        },
+        {
+          "lead_time": 7,
+          "mean_historical_error_feature": 19.66,
+          "historical_error_std": 3.75,
+          "bust_frequency": 0.275
+        },
+        {
+          "lead_time": 8,
+          "mean_historical_error_feature": 21.6,
+          "historical_error_std": 4.7,
+          "bust_frequency": 0.35
+        },
+        {
+          "lead_time": 9,
+          "mean_historical_error_feature": 22.41,
+          "historical_error_std": 4.0,
+          "bust_frequency": 0.375
+        },
+        {
+          "lead_time": 10,
+          "mean_historical_error_feature": 24.54,
+          "historical_error_std": 3.95,
+          "bust_frequency": 0.4
+        }
+      ],
+      "high_risk_lead_times": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "primary_vulnerability": "Precipitation underestimation during convective / monsoon boundary conditions"
+    },
+    "Karnataka": {
+      "region": "Karnataka",
+      "grid_id": "IN-KA",
+      "latitude": 15.3,
+      "longitude": 75.7,
+      "by_lead_time": [
+        {
+          "lead_time": 1,
+          "mean_historical_error_feature": 9.27,
+          "historical_error_std": 3.91,
+          "bust_frequency": 0.075
+        },
+        {
+          "lead_time": 2,
+          "mean_historical_error_feature": 10.58,
+          "historical_error_std": 3.89,
+          "bust_frequency": 0.0
+        },
+        {
+          "lead_time": 3,
+          "mean_historical_error_feature": 11.72,
+          "historical_error_std": 4.72,
+          "bust_frequency": 0.1
+        },
+        {
+          "lead_time": 4,
+          "mean_historical_error_feature": 12.58,
+          "historical_error_std": 3.93,
+          "bust_frequency": 0.15
+        },
+        {
+          "lead_time": 5,
+          "mean_historical_error_feature": 14.61,
+          "historical_error_std": 4.18,
+          "bust_frequency": 0.2
+        },
+        {
+          "lead_time": 6,
+          "mean_historical_error_feature": 16.91,
+          "historical_error_std": 3.23,
+          "bust_frequency": 0.25
+        },
+        {
+          "lead_time": 7,
+          "mean_historical_error_feature": 17.67,
+          "historical_error_std": 3.99,
+          "bust_frequency": 0.225
+        },
+        {
+          "lead_time": 8,
+          "mean_historical_error_feature": 19.95,
+          "historical_error_std": 4.61,
+          "bust_frequency": 0.225
+        },
+        {
+          "lead_time": 9,
+          "mean_historical_error_feature": 22.47,
+          "historical_error_std": 4.19,
+          "bust_frequency": 0.45
+        },
+        {
+          "lead_time": 10,
+          "mean_historical_error_feature": 23.08,
+          "historical_error_std": 4.21,
+          "bust_frequency": 0.325
+        }
+      ],
+      "high_risk_lead_times": [
+        6,
+        9,
+        10
+      ],
+      "primary_vulnerability": "Precipitation underestimation during convective / monsoon boundary conditions"
+    },
+    "Delhi": {
+      "region": "Delhi",
+      "grid_id": "IN-DE",
+      "latitude": 28.7,
+      "longitude": 77.1,
+      "by_lead_time": [
+        {
+          "lead_time": 1,
+          "mean_historical_error_feature": 7.42,
+          "historical_error_std": 4.0,
+          "bust_frequency": 0.025
+        },
+        {
+          "lead_time": 2,
+          "mean_historical_error_feature": 9.13,
+          "historical_error_std": 4.48,
+          "bust_frequency": 0.0
+        },
+        {
+          "lead_time": 3,
+          "mean_historical_error_feature": 9.72,
+          "historical_error_std": 4.81,
+          "bust_frequency": 0.025
+        },
+        {
+          "lead_time": 4,
+          "mean_historical_error_feature": 10.83,
+          "historical_error_std": 3.65,
+          "bust_frequency": 0.225
+        },
+        {
+          "lead_time": 5,
+          "mean_historical_error_feature": 11.89,
+          "historical_error_std": 4.08,
+          "bust_frequency": 0.1
+        },
+        {
+          "lead_time": 6,
+          "mean_historical_error_feature": 13.81,
+          "historical_error_std": 3.66,
+          "bust_frequency": 0.225
+        },
+        {
+          "lead_time": 7,
+          "mean_historical_error_feature": 15.31,
+          "historical_error_std": 3.47,
+          "bust_frequency": 0.375
+        },
+        {
+          "lead_time": 8,
+          "mean_historical_error_feature": 16.07,
+          "historical_error_std": 4.32,
+          "bust_frequency": 0.225
+        },
+        {
+          "lead_time": 9,
+          "mean_historical_error_feature": 16.86,
+          "historical_error_std": 3.73,
+          "bust_frequency": 0.3
+        },
+        {
+          "lead_time": 10,
+          "mean_historical_error_feature": 18.61,
+          "historical_error_std": 4.86,
+          "bust_frequency": 0.475
+        }
+      ],
+      "high_risk_lead_times": [
+        7,
+        9,
+        10
+      ],
+      "primary_vulnerability": "Precipitation underestimation during convective / monsoon boundary conditions"
+    },
+    "Bihar": {
+      "region": "Bihar",
+      "grid_id": "IN-BI",
+      "latitude": 25.9,
+      "longitude": 85.1,
+      "by_lead_time": [
+        {
+          "lead_time": 1,
+          "mean_historical_error_feature": 9.52,
+          "historical_error_std": 3.5,
+          "bust_frequency": 0.025
+        },
+        {
+          "lead_time": 2,
+          "mean_historical_error_feature": 10.33,
+          "historical_error_std": 4.05,
+          "bust_frequency": 0.025
+        },
+        {
+          "lead_time": 3,
+          "mean_historical_error_feature": 12.3,
+          "historical_error_std": 4.0,
+          "bust_frequency": 0.05
+        },
+        {
+          "lead_time": 4,
+          "mean_historical_error_feature": 14.64,
+          "historical_error_std": 4.33,
+          "bust_frequency": 0.15
+        },
+        {
+          "lead_time": 5,
+          "mean_historical_error_feature": 15.83,
+          "historical_error_std": 4.26,
+          "bust_frequency": 0.3
+        },
+        {
+          "lead_time": 6,
+          "mean_historical_error_feature": 19.44,
+          "historical_error_std": 4.04,
+          "bust_frequency": 0.15
+        },
+        {
+          "lead_time": 7,
+          "mean_historical_error_feature": 19.93,
+          "historical_error_std": 4.3,
+          "bust_frequency": 0.3
+        },
+        {
+          "lead_time": 8,
+          "mean_historical_error_feature": 22.38,
+          "historical_error_std": 3.92,
+          "bust_frequency": 0.25
+        },
+        {
+          "lead_time": 9,
+          "mean_historical_error_feature": 23.3,
+          "historical_error_std": 4.17,
+          "bust_frequency": 0.35
+        },
+        {
+          "lead_time": 10,
+          "mean_historical_error_feature": 25.16,
+          "historical_error_std": 4.01,
+          "bust_frequency": 0.35
+        }
+      ],
+      "high_risk_lead_times": [
+        5,
+        7,
+        8,
+        9,
+        10
+      ],
+      "primary_vulnerability": "Precipitation underestimation during convective / monsoon boundary conditions"
+    },
+    "Punjab": {
+      "region": "Punjab",
+      "grid_id": "IN-PU",
+      "latitude": 31.1,
+      "longitude": 75.3,
+      "by_lead_time": [
+        {
+          "lead_time": 1,
+          "mean_historical_error_feature": 7.17,
+          "historical_error_std": 3.38,
+          "bust_frequency": 0.15
+        },
+        {
+          "lead_time": 2,
+          "mean_historical_error_feature": 7.92,
+          "historical_error_std": 3.94,
+          "bust_frequency": 0.075
+        },
+        {
+          "lead_time": 3,
+          "mean_historical_error_feature": 9.32,
+          "historical_error_std": 3.32,
+          "bust_frequency": 0.225
+        },
+        {
+          "lead_time": 4,
+          "mean_historical_error_feature": 11.61,
+          "historical_error_std": 4.82,
+          "bust_frequency": 0.1
+        },
+        {
+          "lead_time": 5,
+          "mean_historical_error_feature": 12.69,
+          "historical_error_std": 4.05,
+          "bust_frequency": 0.125
+        },
+        {
+          "lead_time": 6,
+          "mean_historical_error_feature": 12.68,
+          "historical_error_std": 3.47,
+          "bust_frequency": 0.175
+        },
+        {
+          "lead_time": 7,
+          "mean_historical_error_feature": 15.28,
+          "historical_error_std": 3.79,
+          "bust_frequency": 0.225
+        },
+        {
+          "lead_time": 8,
+          "mean_historical_error_feature": 15.45,
+          "historical_error_std": 3.68,
+          "bust_frequency": 0.2
+        },
+        {
+          "lead_time": 9,
+          "mean_historical_error_feature": 18.84,
+          "historical_error_std": 3.49,
+          "bust_frequency": 0.275
+        },
+        {
+          "lead_time": 10,
+          "mean_historical_error_feature": 18.94,
+          "historical_error_std": 4.51,
+          "bust_frequency": 0.45
+        }
+      ],
+      "high_risk_lead_times": [
+        9,
+        10
+      ],
+      "primary_vulnerability": "Precipitation underestimation during convective / monsoon boundary conditions"
+    },
+    "Andhra Pradesh": {
+      "region": "Andhra Pradesh",
+      "grid_id": "IN-AN",
+      "latitude": 15.9,
+      "longitude": 79.7,
+      "by_lead_time": [
+        {
+          "lead_time": 1,
+          "mean_historical_error_feature": 10.47,
+          "historical_error_std": 3.47,
+          "bust_frequency": 0.0
+        },
+        {
+          "lead_time": 2,
+          "mean_historical_error_feature": 10.58,
+          "historical_error_std": 4.17,
+          "bust_frequency": 0.0
+        },
+        {
+          "lead_time": 3,
+          "mean_historical_error_feature": 13.93,
+          "historical_error_std": 3.53,
+          "bust_frequency": 0.1
+        },
+        {
+          "lead_time": 4,
+          "mean_historical_error_feature": 15.96,
+          "historical_error_std": 4.46,
+          "bust_frequency": 0.125
+        },
+        {
+          "lead_time": 5,
+          "mean_historical_error_feature": 15.82,
+          "historical_error_std": 4.43,
+          "bust_frequency": 0.175
+        },
+        {
+          "lead_time": 6,
+          "mean_historical_error_feature": 18.83,
+          "historical_error_std": 3.72,
+          "bust_frequency": 0.225
+        },
+        {
+          "lead_time": 7,
+          "mean_historical_error_feature": 19.22,
+          "historical_error_std": 3.62,
+          "bust_frequency": 0.425
+        },
+        {
+          "lead_time": 8,
+          "mean_historical_error_feature": 21.1,
+          "historical_error_std": 4.58,
+          "bust_frequency": 0.2
+        },
+        {
+          "lead_time": 9,
+          "mean_historical_error_feature": 24.17,
+          "historical_error_std": 4.08,
+          "bust_frequency": 0.35
+        },
+        {
+          "lead_time": 10,
+          "mean_historical_error_feature": 24.94,
+          "historical_error_std": 3.94,
+          "bust_frequency": 0.375
+        }
+      ],
+      "high_risk_lead_times": [
+        7,
+        9,
+        10
+      ],
+      "primary_vulnerability": "Precipitation underestimation during convective / monsoon boundary conditions"
+    },
+    "Telangana": {
+      "region": "Telangana",
+      "grid_id": "IN-TE",
+      "latitude": 18.1,
+      "longitude": 79.0,
+      "by_lead_time": [
+        {
+          "lead_time": 1,
+          "mean_historical_error_feature": 9.48,
+          "historical_error_std": 4.57,
+          "bust_frequency": 0.0
+        },
+        {
+          "lead_time": 2,
+          "mean_historical_error_feature": 10.43,
+          "historical_error_std": 3.98,
+          "bust_frequency": 0.15
+        },
+        {
+          "lead_time": 3,
+          "mean_historical_error_feature": 12.54,
+          "historical_error_std": 3.09,
+          "bust_frequency": 0.075
+        },
+        {
+          "lead_time": 4,
+          "mean_historical_error_feature": 13.99,
+          "historical_error_std": 3.57,
+          "bust_frequency": 0.225
+        },
+        {
+          "lead_time": 5,
+          "mean_historical_error_feature": 16.06,
+          "historical_error_std": 5.21,
+          "bust_frequency": 0.15
+        },
+        {
+          "lead_time": 6,
+          "mean_historical_error_feature": 18.37,
+          "historical_error_std": 3.26,
+          "bust_frequency": 0.2
+        },
+        {
+          "lead_time": 7,
+          "mean_historical_error_feature": 17.97,
+          "historical_error_std": 3.95,
+          "bust_frequency": 0.325
+        },
+        {
+          "lead_time": 8,
+          "mean_historical_error_feature": 20.64,
+          "historical_error_std": 4.1,
+          "bust_frequency": 0.15
+        },
+        {
+          "lead_time": 9,
+          "mean_historical_error_feature": 22.02,
+          "historical_error_std": 5.03,
+          "bust_frequency": 0.325
+        },
+        {
+          "lead_time": 10,
+          "mean_historical_error_feature": 21.72,
+          "historical_error_std": 4.01,
+          "bust_frequency": 0.4
+        }
+      ],
+      "high_risk_lead_times": [
+        7,
+        9,
+        10
+      ],
+      "primary_vulnerability": "Precipitation underestimation during convective / monsoon boundary conditions"
+    },
+    "Jharkhand": {
+      "region": "Jharkhand",
+      "grid_id": "IN-JH",
+      "latitude": 23.6,
+      "longitude": 85.3,
+      "by_lead_time": [
+        {
+          "lead_time": 1,
+          "mean_historical_error_feature": 10.22,
+          "historical_error_std": 3.83,
+          "bust_frequency": 0.0
+        },
+        {
+          "lead_time": 2,
+          "mean_historical_error_feature": 10.56,
+          "historical_error_std": 4.39,
+          "bust_frequency": 0.05
+        },
+        {
+          "lead_time": 3,
+          "mean_historical_error_feature": 13.3,
+          "historical_error_std": 4.56,
+          "bust_frequency": 0.15
+        },
+        {
+          "lead_time": 4,
+          "mean_historical_error_feature": 14.2,
+          "historical_error_std": 4.01,
+          "bust_frequency": 0.15
+        },
+        {
+          "lead_time": 5,
+          "mean_historical_error_feature": 15.07,
+          "historical_error_std": 3.7,
+          "bust_frequency": 0.175
+        },
+        {
+          "lead_time": 6,
+          "mean_historical_error_feature": 17.32,
+          "historical_error_std": 3.92,
+          "bust_frequency": 0.2
+        },
+        {
+          "lead_time": 7,
+          "mean_historical_error_feature": 19.55,
+          "historical_error_std": 4.92,
+          "bust_frequency": 0.35
+        },
+        {
+          "lead_time": 8,
+          "mean_historical_error_feature": 22.81,
+          "historical_error_std": 3.74,
+          "bust_frequency": 0.2
+        },
+        {
+          "lead_time": 9,
+          "mean_historical_error_feature": 23.0,
+          "historical_error_std": 3.8,
+          "bust_frequency": 0.3
+        },
+        {
+          "lead_time": 10,
+          "mean_historical_error_feature": 25.03,
+          "historical_error_std": 3.87,
+          "bust_frequency": 0.425
+        }
+      ],
+      "high_risk_lead_times": [
+        7,
+        9,
+        10
+      ],
+      "primary_vulnerability": "Precipitation underestimation during convective / monsoon boundary conditions"
+    },
+    "Chhattisgarh": {
+      "region": "Chhattisgarh",
+      "grid_id": "IN-CH",
+      "latitude": 21.3,
+      "longitude": 81.9,
+      "by_lead_time": [
+        {
+          "lead_time": 1,
+          "mean_historical_error_feature": 9.03,
+          "historical_error_std": 3.97,
+          "bust_frequency": 0.0
+        },
+        {
+          "lead_time": 2,
+          "mean_historical_error_feature": 10.94,
+          "historical_error_std": 4.46,
+          "bust_frequency": 0.025
+        },
+        {
+          "lead_time": 3,
+          "mean_historical_error_feature": 12.8,
+          "historical_error_std": 4.31,
+          "bust_frequency": 0.025
+        },
+        {
+          "lead_time": 4,
+          "mean_historical_error_feature": 13.94,
+          "historical_error_std": 3.58,
+          "bust_frequency": 0.225
+        },
+        {
+          "lead_time": 5,
+          "mean_historical_error_feature": 16.99,
+          "historical_error_std": 3.59,
+          "bust_frequency": 0.15
+        },
+        {
+          "lead_time": 6,
+          "mean_historical_error_feature": 17.4,
+          "historical_error_std": 3.46,
+          "bust_frequency": 0.25
+        },
+        {
+          "lead_time": 7,
+          "mean_historical_error_feature": 19.13,
+          "historical_error_std": 3.77,
+          "bust_frequency": 0.3
+        },
+        {
+          "lead_time": 8,
+          "mean_historical_error_feature": 20.82,
+          "historical_error_std": 3.55,
+          "bust_frequency": 0.375
+        },
+        {
+          "lead_time": 9,
+          "mean_historical_error_feature": 23.41,
+          "historical_error_std": 4.09,
+          "bust_frequency": 0.35
+        },
+        {
+          "lead_time": 10,
+          "mean_historical_error_feature": 26.44,
+          "historical_error_std": 3.62,
+          "bust_frequency": 0.3
+        }
+      ],
+      "high_risk_lead_times": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "primary_vulnerability": "Precipitation underestimation during convective / monsoon boundary conditions"
+    }
+  }
+}
